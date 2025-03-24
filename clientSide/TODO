@@ -1,0 +1,7 @@
+Main goal is to make a page that does the following:
+    - Deploys a website for adding images / videos 
+    - Has a database to store said videos 
+        - Time based? 
+    - Auto deploys on startup 
+    - Runs on Ubuntu / RHEL ??? 
+    - Connects to main hub via API 

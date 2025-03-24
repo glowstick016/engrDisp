@@ -1,0 +1,7 @@
+Main goal is to make code that does the following:
+    - Has an API for clients to talk with 
+    - Has a centralized management that lets you go to said client side pages 
+    - Keeps track of status
+    - Shows users what Pis they have the rights to view and edit 
+        - Maybe work off of AD???
+        - Hardcoded in the past 

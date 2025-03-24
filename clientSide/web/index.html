@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CoE Displays</title>
+    
+    <!-- Importing React -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Importing Markdown-->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <!-- Importing required files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/makePage.js"></script>  
+    
+  </head>
+
+  <body>
+
+    <header>
+      CoE Displays
+    </header>
+
+    <div class="main">
+        <div id="main-id"></div> 
+        <script>
+              // Getting the right elements
+              const mainContainer = document.getElementById('main-id');
+        
+              // Rendering
+              ReactDOM.createRoot(mainContainer).render(React.createElement(mainPage));
+
+        </script>
+
+  </div>
+  </body>
+</html>

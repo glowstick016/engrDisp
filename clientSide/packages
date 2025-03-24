@@ -1,0 +1,6 @@
+Packages need for Python:
+    - pillow 
+
+Packages need for Software:
+    - Python3 
+    - python3-tk (RHEL -> python3-tkinter)
